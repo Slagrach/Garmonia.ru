@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Harmony</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+    <link href="img/icons/favicon.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper"><!-- /HEADER/ -->
+      <header class="header">
+        <div class="header-content"><img class="header-banner" src="img/icons/banner.png" alt="">
+          <div class="header-top">
+            <div class="container">
+              <div class="header-list">
+                <ul class="header-city topMenu">
+                  <li><a class="header-link" href="">
+                      <div class="header-link__img">
+                        <svg width="11" height="16" viewBox="0 0 11 16" xmlns="http://www.w3.org/2000/svg">
+                          <path id="mark" fill="#1A1D6E" d="M5.21393 0.492188C2.33899 0.492188 0 2.83118 0 5.70611C0 9.31961 5.21906 15.4922 5.21906 15.4922C5.21906 15.4922 10.4279 9.14191 10.4279 5.70611C10.4279 2.83118 8.08896 0.492188 5.21393 0.492188ZM6.78708 7.23276C6.3533 7.66644 5.78366 7.88333 5.21393 7.88333C4.64429 7.88333 4.07446 7.66644 3.64087 7.23276C2.77341 6.36539 2.77341 4.95401 3.64087 4.08655C4.06091 3.66632 4.61966 3.43488 5.21393 3.43488C5.8082 3.43488 6.36685 3.66641 6.78708 4.08655C7.65454 4.95401 7.65454 6.36539 6.78708 7.23276Z"></path>
+                        </svg>
+                      </div>
+                      <div class="header-link__text">ВАШ ГОРОД</div></a>
+                    <ul class="subMenu">
+                      <li><a href="">Минская обл.<span class="fa fa-caret-down"></span>
+                          <ul class="subMenu">
+                            <li><a href="">Минск</a></li>
+                            <li><a href="borisov.html">Борисов</a></li>
+                            <li><a href="">Дзержинск</a></li>
+                            <li><a href="">Жодино</a></li>
+                            <li><a href="">Крупки</a></li>
+                          </ul></a></li>
+                      <li><a href="">Могилевская обл.<span class="fa fa-caret-down"></span>
+                          <ul class="subMenu">
+                            <li><a href="">Минск</a></li>
+                            <li><a href="">Борисов</a></li>
+                            <li><a href="">Дзержинск</a></li>
+                            <li><a href="">Жодино</a></li>
+                            <li><a href="">Крупки</a></li>
+                          </ul></a></li>
+                      <li><a href="">Витебская обл.<span class="fa fa-caret-down"></span>
+                          <ul class="subMenu">
+                            <li><a href="">Минск</a></li>
+                            <li><a href="">Борисов</a></li>
+                            <li><a href="">Дзержинск</a></li>
+                            <li><a href="">Жодино</a></li>
+                            <li><a href="">Крупки</a></li>
+                          </ul></a></li>
+                      <li><a href="">Брестская обл.<span class="fa fa-caret-down"></span>
+                          <ul class="subMenu">
+                            <li><a href="">Минск</a></li>
+                            <li><a href="">Борисов</a></li>
+                            <li><a href="">Дзержинск</a></li>
+                            <li><a href="">Жодино</a></li>
+                            <li><a href="">Крупки</a></li>
+                          </ul></a></li>
+                      <li><a href="">Гомельская обл.<span class="fa fa-caret-down"></span>
+                          <ul class="subMenu">
+                            <li><a href="">Минск</a></li>
+                            <li><a href="">Борисов</a></li>
+                            <li><a href="">Дзержинск</a></li>
+                            <li><a href="">Жодино</a></li>
+                            <li><a href="">Крупки</a></li>
+                          </ul></a></li>
+                      <li><a href="">Гродненская обл.<span class="fa fa-caret-down"></span>
+                          <ul class="subMenu">
+                            <li><a href="">Минск</a></li>
+                            <li><a href="">Борисов</a></li>
+                            <li><a href="">Дзержинск</a></li>
+                            <li><a href="">Жодино</a></li>
+                            <li><a href="">Крупки</a></li>
+                          </ul></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="header-calc"><a class="header-link" href="">
+                    <div class="header-link__img">
+                      <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                        <path id="calc" fill="#1A1D6E" d="M0 8.00112V13.6816C0 14.4086 0.591387 15 1.31836 15H7.03125V8.00112H0ZM6.02361 12.492C6.19526 12.6637 6.19526 12.9418 6.02361 13.1135C5.85193 13.2851 5.57388 13.2851 5.4022 13.1135L3.95508 11.6663L2.50796 13.1135C2.33628 13.2851 2.05822 13.2851 1.88654 13.1135C1.71489 12.9418 1.71489 12.6637 1.88654 12.492L3.33366 11.0449L1.88657 9.53921C1.71492 9.36756 1.71492 9.08944 1.88657 8.91779C2.05822 8.74614 2.33634 8.74614 2.50799 8.91779L3.95508 10.3649L5.4022 8.91779C5.57385 8.74614 5.85196 8.74614 6.02361 8.91779C6.19526 9.08944 6.19526 9.36756 6.02361 9.53921L4.57649 11.0449L6.02361 12.492Z"></path>
+                        <path id="calc" fill="#1A1D6E" d="M13.6816 0H7.91016V7.10464H15V1.31836C15 0.591387 14.4086 0 13.6816 0ZM12.8027 4.39453H9.22852C8.98561 4.39453 8.78906 4.19798 8.78906 3.95508C8.78906 3.71218 8.98561 3.51563 9.22852 3.51563H12.8027C13.0456 3.51563 13.2422 3.71218 13.2422 3.95508C13.2422 4.19798 13.0456 4.39453 12.8027 4.39453Z"></path>
+                        <path id="calc" fill="#1A1D6E" d="M1.31836 0C0.591387 0 0 0.591387 0 1.31836V7.10464H7.03125V0H1.31836ZM5.71289 4.39453H4.39453V5.71289C4.39453 5.95579 4.19798 6.15234 3.95508 6.15234C3.71218 6.15234 3.51562 5.95579 3.51562 5.71289V4.39453H2.19727C1.95437 4.39453 1.75781 4.19798 1.75781 3.95508C1.75781 3.71218 1.95437 3.51563 2.19727 3.51563H3.51562V2.19727C3.51562 1.95437 3.71218 1.75781 3.95508 1.75781C4.19798 1.75781 4.39453 1.95437 4.39453 2.19727V3.51563H5.71289C5.95579 3.51563 6.15234 3.71218 6.15234 3.95508C6.15234 4.19798 5.95579 4.39453 5.71289 4.39453Z"></path>
+                        <path id="calc" fill="#1A1D6E" d="M7.91016 8.00112V15H13.6816C14.4086 15 15 14.4086 15 13.6816V8.00112H7.91016ZM12.8027 12.3633H9.22852C8.98561 12.3633 8.78906 12.1667 8.78906 11.9238C8.78906 11.6809 8.98561 11.4844 9.22852 11.4844H12.8027C13.0456 11.4844 13.2422 11.6809 13.2422 11.9238C13.2422 12.1667 13.0456 12.3633 12.8027 12.3633ZM12.8027 10.5469H9.22852C8.98561 10.5469 8.78906 10.3503 8.78906 10.1074C8.78906 9.86452 8.98561 9.66797 9.22852 9.66797H12.8027C13.0456 9.66797 13.2422 9.86452 13.2422 10.1074C13.2422 10.3503 13.0456 10.5469 12.8027 10.5469Z"></path>
+                      </svg>
+                    </div>
+                    <div class="header-link__text">КАЛЬКУЛЯТОР</div></a></div>
+                <div class="header-club"><a class="header-link" href="">
+                    <div class="header-link__img">
+                      <svg width="17" height="14" viewBox="0 0 17 14" xmlns="http://www.w3.org/2000/svg">
+                        <path id="club" fill="#1A1D6E" d="M8.5 5.45286C6.90463 5.45286 5.61133 4.2322 5.61133 2.72643C5.61133 1.22066 6.90463 0 8.5 0C10.0954 0 11.3887 1.22066 11.3887 2.72643C11.3887 4.2322 10.0954 5.45286 8.5 5.45286Z"></path>
+                        <path id="club" fill="#1A1D6E" d="M2.65625 5.45283C1.64768 5.45283 0.830078 4.68115 0.830078 3.72922C0.830078 2.7773 1.64768 2.00562 2.65625 2.00562C3.66482 2.00562 4.48242 2.7773 4.48242 3.72922C4.48242 4.68115 3.66482 5.45283 2.65625 5.45283Z"></path>
+                        <path id="club" fill="#1A1D6E" d="M14.3438 5.45283C13.3352 5.45283 12.5176 4.68115 12.5176 3.72922C12.5176 2.7773 13.3352 2.00562 14.3438 2.00562C15.3523 2.00562 16.1699 2.7773 16.1699 3.72922C16.1699 4.68115 15.3523 5.45283 14.3438 5.45283Z"></path>
+                        <path id="club" fill="#1A1D6E" d="M12.5445 7.00066C13.2633 6.44478 13.9143 6.51836 14.7455 6.51836C15.9886 6.51836 17 7.46729 17 8.63338V12.0558C17 12.5623 16.5621 12.974 16.0235 12.974C13.6984 12.974 13.9785 13.0138 13.9785 12.8794C13.9785 10.4543 14.2829 8.67578 12.5445 7.00066Z"></path>
+                        <path id="club" fill="#1A1D6E" d="M7.70943 6.53087C9.16121 6.41658 10.4231 6.53218 11.5115 7.38013C13.3329 8.75714 12.9824 10.6112 12.9824 12.8794C12.9824 13.4795 12.4651 13.9768 11.8196 13.9768C4.81107 13.9768 4.53213 14.1902 4.11652 13.3216C3.98022 13.0278 4.01758 13.1212 4.01758 10.3109C4.01758 8.07879 6.06531 6.53087 7.70943 6.53087Z"></path>
+                        <path id="club" fill="#1A1D6E" d="M2.25449 6.51833C3.09021 6.51833 3.73764 6.4455 4.45553 7.00063C2.73013 8.66331 3.02148 10.3204 3.02148 12.8794C3.02148 13.0146 3.25401 12.974 1.01137 12.974C0.453554 12.974 0 12.5475 0 12.0232V8.63335C0 7.46726 1.01137 6.51833 2.25449 6.51833Z"></path>
+                      </svg>
+                    </div>
+                    <div class="header-link__text">КЛУБ "ГАРМОНИЯ УЮТА"</div></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="header-main">
+            <div class="container">
+              <div class="header-body"><img class="header-logo" src="img/icons/logo.png" alt="logo">
+                <div class="header-items">
+                  <div class="header-item left">
+                    <div class="left-title">Режим работы:</div>
+                    <div class="left-items">
+                      <div class="left-phone">ПН-ПТ: <span>09:00-20:00</span></div>
+                      <div class="left-phone">CБ-ВС: <span>10:00-20:00</span></div>
+                    </div>
+                  </div>
+                  <div class="header-item right">
+                    <div class="right-title">Звоните сейчас!</div>
+                    <div class="right-items">
+                      <div class="right-item">
+                        <div class="right-left">
+                          <div class="right-left__img"><img src="img/icons/label.svg" alt="label"></div>
+                          <div class="right-left__text">+375(29)</div>
+                        </div>
+                        <div class="right-left">
+                          <div class="right-left__img"><img src="img/icons/mtc.svg" alt="mtc"></div>
+                          <div class="right-left__text">+375(33)</div>
+                        </div>
+                        <div class="right-left__phone phone-left">+375(17)</div>
+                      </div>
+                      <div class="right-item">
+                        <div class="right-phone">556 08 08</div>
+                        <div class="right-phone phone-right">395 99 26</div>
+                      </div>
+                    </div>
+                  </div>
+                </div><a class="header-btn" href="#" data-call="#call">
+                  <div class="header-btn__img">
+                    <svg width="23" height="24" viewBox="0 0 23 24" xmlns="http://www.w3.org/2000/svg">
+                      <path id="phone" d="M17.4859 15.8765C16.7345 15.1024 15.7964 15.1024 15.0498 15.8765C14.4802 16.4658 13.9107 17.0551 13.3507 17.6544C13.1975 17.8192 13.0683 17.8542 12.8817 17.7443C12.5131 17.5345 12.1207 17.3647 11.7665 17.135C10.1153 16.0513 8.73213 14.6579 7.50689 13.0897C6.89906 12.3106 6.35823 11.4766 5.98013 10.5377C5.90355 10.3479 5.91791 10.2231 6.06628 10.0682C6.63582 9.49391 7.19101 8.9046 7.75098 8.31528C8.53111 7.49624 8.53111 6.53736 7.74619 5.71332C7.30109 5.24387 6.85598 4.7844 6.41087 4.31495C5.95141 3.83551 5.49673 3.35107 5.03248 2.87663C4.28107 2.11252 3.343 2.11252 2.59637 2.88162C2.02204 3.47093 1.47164 4.07523 0.887735 4.65455C0.346908 5.18893 0.0741011 5.84317 0.0166681 6.60728C-0.0742674 7.85082 0.217684 9.02446 0.629287 10.1681C1.47164 12.5354 2.75431 14.6379 4.30978 16.5657C6.41088 19.1726 8.91878 21.2352 11.8527 22.7235C13.1736 23.3927 14.5424 23.9071 16.0309 23.992C17.0551 24.0519 17.9453 23.7822 18.6585 22.9482C19.1466 22.3789 19.697 21.8595 20.2139 21.3151C20.9797 20.5061 20.9845 19.5272 20.2235 18.7281C19.3142 17.7742 18.4 16.8254 17.4859 15.8765Z" fill="#FF8F17"></path>
+                      <path id="phone" d="M16.5719 11.8961L18.338 11.5815C18.0604 9.88846 17.2946 8.35525 16.1316 7.13667C14.9016 5.85317 13.3461 5.04411 11.6327 4.7944L11.3838 6.64724C12.7095 6.84201 13.9156 7.46628 14.8681 8.46012C15.7678 9.39903 16.3565 10.5876 16.5719 11.8961Z" fill="#FF8F17"></path>
+                      <path id="phone" d="M19.3333 3.88547C17.2945 1.75795 14.7148 0.414516 11.867 0L11.6182 1.85284C14.0782 2.21242 16.3085 3.37606 18.0698 5.20892C19.7401 6.95189 20.8362 9.15432 21.2334 11.5765L22.9995 11.2619C22.5352 8.45514 21.2669 5.90811 19.3333 3.88547Z" fill="#FF8F17"></path>
+                    </svg>
+                  </div>
+                  <div class="header-btn__phone">ЗАКАЗАТЬ ЗВОНОК</div></a><a class="header-btn" href="">
+                  <div class="header-btn__img">
+                    <svg width="27" height="20" viewBox="0 0 27 20" xmlns="http://www.w3.org/2000/svg">
+                      <path id="mail" fill="#FF8F17" d="M24.627 0H2.37305C1.06618 0 0 1.03569 0 2.30769V17.6923C0 18.96 1.06144 20 2.37305 20H24.627C25.9305 20 27 18.9678 27 17.6923V2.30769C27 1.04 25.9386 0 24.627 0ZM24.2993 1.53846L13.5503 11.9914L2.70838 1.53846H24.2993ZM1.58203 17.3737V2.61892L9.20104 9.96457L1.58203 17.3737ZM2.70069 18.4615L10.3245 11.0477L12.9959 13.6232C13.3051 13.9213 13.8041 13.9204 14.1121 13.6208L16.7168 11.0878L24.2993 18.4615H2.70069ZM25.418 17.3737L17.8355 10L25.418 2.62626V17.3737Z"></path>
+                    </svg>
+                  </div>
+                  <div class="header-btn__phone">НАПИСАТЬ НАМ</div></a>
+              </div>
+            </div>
+            <div class="header-menu menu">
+              <div class="container">
+                <div class="menu-burger"><span></span></div>
+                <nav class="menu-body">
+                  <ul class="menu-list">
+                    <li><a class="menu-link" href="">КАТАЛОГ ПОТОЛКОВ<span class="fa fa-caret-down"></span></a>
+                      <ul class="menu-list2">
+                        <li class="menu-point"><a class="menu-link2" href="catalog.html">Каталог натяжных потолков
+                            <ul class="menu-list3">
+                              <li class="menu-point2"><a class="menu-link3" href="matte.html">Матовые натяжные потолки</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Глянцевые натяжные потолки</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Сатиновые натяжные потолки</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Тканевые натяжные потолки</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Двухуровневые натяжные потолки</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Натяжные потолки с фотопечатью</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Парящие натяжные потолки</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Бесщелевые натяжные потолки</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Потолки с парящими линиями</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Потолски с системой SLOTT</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Потолки “Парящий остров”</a></li>
+                              <li class="menu-point2"><a class="menu-link3" href="">Потолки Double Vision</a></li>
+                            </ul></a></li>
+                        <li class="menu-point"><a class="menu-link2" href="project.html">Создать проект</a></li>
+                        <li class="menu-point"><a class="menu-link2" href="palette.html">Политра</a></li>
+                        <li class="menu-point"><a class="menu-link2" href="examples.html">Готовые решения</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="menu-link" href="">ЦЕНЫ<span class="fa fa-caret-down"></span></a></li>
+                    <li><a class="menu-link" href="">ОТЗЫВЫ<span class="fa fa-caret-down"></span></a></li>
+                    <li><a class="menu-link" href="">ФОТОГАЛЕРЕЯ<span class="fa fa-caret-down"></span></a></li>
+                    <li><a class="menu-link" href="">ДОП. УСЛУГИ<span class="fa fa-caret-down"></span></a>
+                      <ul class="menu-list4">
+                        <li class="menu-point3"><a class="menu-link3" href="">Натяжные стены</a></li>
+                        <li class="menu-point3"><a class="menu-link3" href="">Фотопечать</a></li>
+                        <li class="menu-point3"><a class="menu-link3" href="">Фотообои</a></li>
+                        <li class="menu-point3"><a class="menu-link3" href="">Фотокартины</a></li>
+                        <li class="menu-point3"><a class="menu-link3" href="lamp.html">Светильники</a></li>
+                        <li class="menu-point3"><a class="menu-link3" href="">Светодиодные ленты</a></li>
+                        <li class="menu-point3"><a class="menu-link3" href="">Карнизы</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="menu-link" href="">О КОМПАНИИ<span class="fa fa-caret-down"></span></a>
+                      <ul class="menu-list5">
+                        <li class="menu-point4"><a class="menu-link3" href="company.html">О компании</a></li>
+                        <li class="menu-point4"><a class="menu-link3" href="team.html">Команда</a></li>
+                        <li class="menu-point4"><a class="menu-link3" href="advantages.html">Преимущества для Вас</a></li>
+                        <li class="menu-point4"><a class="menu-link3" href="news.html">Новости</a></li>
+                        <li class="menu-point4"><a class="menu-link3" href="blog.html">Блог о дизайне</a></li>
+                        <li class="menu-point4"><a class="menu-link3" href="">Партнёры</a></li>
+                        <li class="menu-point4"><a class="menu-link3" href="">Дилерам</a></li>
+                        <li class="menu-point4"><a class="menu-link3" href="">Вакансии</a></li>
+                        <li class="menu-point4"><a class="menu-link3" href="">Производство</a></li>
+                        <li class="menu-point4"><a class="menu-link3" href="">Доска почета</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="menu-link" href="charter.html">КОНТАКТЫ</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header><!-- /INTRO/ -->
+      <div class="intro">
+        <div class="container">
+          <div class="intro-content">
+            <div class="intro-slider">
+              <div class="intro-item"><img class="intro-item__img" src="img/Group.png" alt="group">
+                <p class="intro-item__text">ВСЕГО ЗА 1 ДЕНЬ У ВАС БУДЕТ КРАСИВЫЙ</p>
+                <p class="intro-item__text">НАТЯЖНОЙ ПОТОЛОК, КОТОРЫЙ ВОСХИЩАЕТ</p><a class="intro-item__btn" href="">РАССЧИТАТЬ СТОИМОСТЬ</a>
+                <div class="intro-item__points point">
+                  <div class="point-text">
+                    <p>РАССРОЧКА ДО 36-ТИ МЕСЯЦЕВ</p>
+                  </div>
+                  <div class="point-text">
+                    <p>БЕСПЛАТНЫЙ ЗАМЕР И ДИЗАЙН</p>
+                  </div>
+                  <div class="point-text">
+                    <p>ГАРАНТИЯ 25 ЛЕТ</p>
+                  </div>
+                  <div class="point-text">
+                    <p>УСТАНОВКА ОТ 3-ЕХ ЧАСОВ</p>
+                  </div>
+                </div>
+              </div>
+              <div class="intro-item"><img class="intro-item__img" src="img/Group.png" alt="group">
+                <p class="intro-item__text">ВСЕГО ЗА 1 ДЕНЬ У ВАС БУДЕТ КРАСИВЫЙ</p>
+                <p class="intro-item__text">НАТЯЖНОЙ ПОТОЛОК, КОТОРЫЙ ВОСХИЩАЕТ</p><a class="intro-item__btn" href="">РАССЧИТАТЬ СТОИМОСТЬ</a>
+                <div class="intro-item__points point">
+                  <div class="point-text">
+                    <p>РАССРОЧКА ДО 36-ТИ МЕСЯЦЕВ</p>
+                  </div>
+                  <div class="point-text">
+                    <p>БЕСПЛАТНЫЙ ЗАМЕР И ДИЗАЙН</p>
+                  </div>
+                  <div class="point-text">
+                    <p>ГАРАНТИЯ 25 ЛЕТ</p>
+                  </div>
+                  <div class="point-text">
+                    <p>УСТАНОВКА ОТ 3-ЕХ ЧАСОВ</p>
+                  </div>
+                </div>
+              </div>
+              <div class="intro-item"><img class="intro-item__img" src="img/Group.png" alt="group">
+                <p class="intro-item__text">ВСЕГО ЗА 1 ДЕНЬ У ВАС БУДЕТ КРАСИВЫЙ</p>
+                <p class="intro-item__text">НАТЯЖНОЙ ПОТОЛОК, КОТОРЫЙ ВОСХИЩАЕТ</p><a class="intro-item__btn" href="">РАССЧИТАТЬ СТОИМОСТЬ</a>
+                <div class="intro-item__points point">
+                  <div class="point-text">
+                    <p>РАССРОЧКА ДО 36-ТИ МЕСЯЦЕВ</p>
+                  </div>
+                  <div class="point-text">
+                    <p>БЕСПЛАТНЫЙ ЗАМЕР И ДИЗАЙН</p>
+                  </div>
+                  <div class="point-text">
+                    <p>ГАРАНТИЯ 25 ЛЕТ</p>
+                  </div>
+                  <div class="point-text">
+                    <p>УСТАНОВКА ОТ 3-ЕХ ЧАСОВ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /ORDER/ -->
+      <div class="order">
+        <div class="container">
+          <div class="order-content">
+            <div class="order-title title"> БЕСПЛАТНЫЙ ЗАМЕР. КОНСУЛЬТАЦИЯ И <span>50 РУБ. В ПОДАРОК*</span></div>
+            <div class="order-text">Оставьте Ваш номер прямо сейчас для бесплатной консультации!</div>
+            <div class="order-items items">
+              <form class="order-item form">
+                <label class="order-label form-label" for="telephone">+375</label>
+                <input class="order-tel form-input" id="telephone" type="tel" name="phone" autocomplete="off" placeholder="Введите Ваш номер">
+              </form><a class="order-btn btn" href="">заказать</a>
+            </div>
+          </div>
+        </div>
+      </div><!-- /ROOF/ -->
+      <div class="roof">
+        <div class="container">
+          <div class="roof-content"><img class="roof-left" src="img/girl.png" alt=""><img class="roof-right" src="img/girl2.png" alt="">
+            <h2 class="roof-title">Натяжные потолки № 1 в Минске и Беларуси с 2008 года*</h2>
+            <p class="roof-text"><span>Наша цель</span> — сделать жизнь людей лучше,<br> создавая уют в домах, предоставляя лучший сервис в мире!</p>
+            <div class="roof-items">
+              <div class="roof-img"><img src="img/hand.svg" alt=""></div>
+              <div class="roof-item">
+                <div class="roof-item__title1">КОМПАНИЯ № 1 ПО ОТЗЫВАМ</div>
+                <div class="roof-item__text">более 4 900</div>
+                <div class="roof-item__text">рекомендаций на портале otzyvy.by</div>
+              </div>
+              <div class="roof-img"><img src="img/cup.svg" alt=""></div>
+              <div class="roof-item">
+                <div class="roof-item__title2">РАБОТАЕМ С 2008 ГОДА</div>
+                <div class="roof-item__text">12 лет опыта</div>
+                <div class="roof-item__text">в создании стиля, комфорта и уюта</div>
+              </div>
+              <div class="roof-img"><img src="img/like.svg" alt=""></div>
+              <div class="roof-item">
+                <div class="roof-item__title3">НАС РЕКОМЕНДУЮТ И ОБРАЩАЮТСЯ ПОВТОРНО</div>
+                <div class="roof-item__text">Каждый третий клиент возвращается и рекомендует наши услуги</div>
+              </div>
+              <div class="roof-img"><img src="img/group.svg" alt=""></div>
+              <div class="roof-item">
+                <div class="roof-item__title4">В КОМПАНИИ БОЛЕЕ 100 СОТРУДНИКОВ</div>
+                <div class="roof-item__text">Наша команда состоит только из профессионалов</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /WORKS/ -->
+      <section class="works">
+        <div class="container">
+          <div class="works-content">
+            <h2 class="works-title">ВАРИАНТЫ НАТЯЖНЫХ ПОТОЛКОВ</h2>
+            <div class="works-items">
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>матовые</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic1.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>глянцевые</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic2.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>сатиновые</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic3.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>тканевые</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic4.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>двухуровневые</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic5.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>с фотопечатью</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic6.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>парящие</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic7.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>бесщелевые</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic8.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>с парящими линиями</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic9.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>с системой slott</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic10.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>парящий остров</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+              <div class="works-item">
+                <div class="works-item__img"><img src="img/pic11.png" alt=""></div>
+                <div class="works-item__text text">
+                  <div class="text-items">
+                    <p><span>double vision</span></p>
+                    <p>НАТЯЖНЫЕ ПОТОЛКИ</p>
+                  </div><a href="">
+                    <div class="text-link">
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="arrow" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#1A1D6E" stroke-width="4"></path>
+                      </svg>
+                    </div></a>
+                </div>
+              </div>
+            </div><a class="works-btn" href="">СМОТРЕТЬ ГОТОВЫЕ РЕШЕНИЯ</a>
+          </div>
+        </div>
+      </section><!-- /SLIDER/ -->
+      <div class="slider">
+        <div class="slider-content">
+          <h3 class="slider-title">ЧТО ВЫ ПОЛУЧАЕТЕ</h3><img class="slider-left" src="img/arrowLeft.svg" alt=""><img class="slider-right" src="img/arrowRight.svg" alt="">
+          <div class="slider-items">
+            <div class="slider-item"><img class="slider-target" src="img/target.svg" alt=""><a href="img/img1.png" data-fancybox="img" data-width="800" data-height="800"><img src="img/img1.png" alt="img"></a></div>
+            <div class="slider-item"><img class="slider-target" src="img/target.svg" alt=""><a href="img/img2.png" data-fancybox="img" data-width="800" data-height="800"><img src="img/img2.png" alt="img"></a></div>
+            <div class="slider-item"><img class="slider-target" src="img/target.svg" alt=""><a href="img/img3.png" data-fancybox="img" data-width="800" data-height="800"><img src="img/img3.png" alt="img"></a></div>
+            <div class="slider-item"><img class="slider-target" src="img/target.svg" alt=""><a href="img/img4.png" data-fancybox="img" data-width="800" data-height="800"><img src="img/img4.png" alt="img"></a></div>
+            <div class="slider-item"><img class="slider-target" src="img/target.svg" alt=""><a href="img/img1.png" data-fancybox="img" data-width="800" data-height="800"><img src="img/img1.png" alt="img"></a></div>
+            <div class="slider-item"><img class="slider-target" src="img/target.svg" alt=""><a href="img/img2.png" data-fancybox="img" data-width="800" data-height="800"><img src="img/img2.png" alt="img"></a></div>
+            <div class="slider-item"><img class="slider-target" src="img/target.svg" alt=""><a href="img/img3.png" data-fancybox="img" data-width="800" data-height="800"><img src="img/img3.png" alt="img"></a></div>
+            <div class="slider-item"><img class="slider-target" src="img/target.svg" alt=""><a href="img/img4.png" data-fancybox="img" data-width="800" data-height="800"><img src="img/img4.png" alt="img"></a></div>
+          </div><a class="slider-btn" href="">ГАЛЕРЕЯ РАБОТ</a>
+        </div>
+      </div><!-- /VIDEO/ -->
+      <div class="video">
+        <div class="video-bg">
+          <svg viewBox="0 0 860 500" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,70 C0,70 430,-90 900,80 L950,530 0,500z" fill="#F79506"></path>
+            <image href="img/bg.png" width="450" height="450" x="220" y="50"></image>
+          </svg>
+        </div>
+        <div class="container">
+          <div class="video-content">
+            <div class="video-left">
+              <div class="video-left__title">Чем мы будет Вам полезны?</div>
+              <ol>
+                <li class="video-left__list">Изготовление и установка потолочных покрытий разной конструкции: одноуровневые, двухуровневые и трехуровневые потолки.</li>
+                <li class="video-left__list">Большой ассортимент полотен.</li>
+                <li class="video-left__list"><a href="">Натяжные потолки с фотопечатью.</a></li>
+                <li class="video-left__list">Реализация сложных, нестандартных заказов</li>
+                <li class="video-left__list">Расчет проектов от бюджетного до элитного класса</li>
+              </ol>
+              <div class="video-left__title">Как Гармония уюта решит проблему ремонта?</div>
+              <ul>
+                <li class="video-left__list"><span>Уверенность в качестве:</span> производство предоставляет высокое качество раскроя и уменьшает эффект от заминов. Натяжной потолок проходит тройную проверку при производстве, что обеспечивает уровень брака менее 1%</li>
+                <li class="video-left__list"><span>Дизайн:</span> устанавливаем потолки только в том случае, если Вы полностью довольны предложенным эскизом</li>
+                <li class="video-left__list"><span>Гарантия до 50 лет:</span> отвечаем за свои слова репутацией</li>
+                <li class="video-left__list"><span>Честность:</span> делаем честно - вы можете опровергнуть данную информацию на <a href=''>otzyvy.by</a></li>
+              </ul>
+            </div>
+            <div class="video-center">
+              <div class="video-btn"><a href=""><img src="img/btn.png" alt=""></a></div>
+            </div>
+            <div class="video-right">
+              <div class="video-right__title">Почему Гармония уюта решит Ваши задачи?</div>
+              <div class="video-right__text">Монтаж потолков от компании №1 по отзывам клиентов*</div>
+              <div class="video-right__text">Компания не раз удостаивалась различных наград:</div>
+              <ul>
+                <li class="video-right__list">- Выбор года 2015 / 2014</li>
+                <li class="video-right__list">- Лучший строительный продукт 2015 / 2014 г.</li>
+                <li class="video-right__list">- Лидер года</li>
+                <li class="video-right__list">- Бренд года</li>
+                <li class="video-right__list">- QS (международная награда за<br>качество, полученная в Каннах, Франция</li>
+                <li class="video-right__list">- HR-бренд</li>
+                <li class="video-right__list"><span>Дорожим своей репутацией</span></li>
+              </ul>
+              <form class="video-right__phone">
+                <label class="video-right__label" for="mobil">+375</label>
+                <input class="video-right__tel" id="mobil" type="tel" name="phone" autocomplete="off" placeholder="Введите Ваш номер">
+              </form><a class="video-right__btn" href="">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</a>
+            </div>
+          </div>
+        </div>
+      </div><!-- /ROOF2/ -->
+      <section class="roof2">
+        <div class="container">
+          <div class="roof2-content">
+            <h2 class="roof2-title">Натяжные потолки - наш стандарт это:</h2>
+            <div class="roof2-items">
+              <div class="roof2-item">
+                <div class="roof2-left"><img src="img/arrows.svg" alt=""></div>
+                <div class="roof2-right">
+                  <div class="roof2-right__title">БЕСПЛАТНЫЙ ЗАМЕР!</div>
+                  <div class="roof2-right__text">Наш специалист бесплатно приедет к Вам на замер и консультацию</div>
+                </div>
+              </div>
+              <div class="roof2-item">
+                <div class="roof2-left"><img src="img/comments.svg" alt=""></div>
+                <div class="roof2-right">
+                  <div class="roof2-right__title">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ!</div>
+                  <div class="roof2-right__text">Поможем выбрать натяжной потолок, который подойдет именно Вам</div>
+                </div>
+              </div>
+              <div class="roof2-item">
+                <div class="roof2-left"><img src="img/clock.svg" alt=""></div>
+                <div class="roof2-right">
+                  <div class="roof2-right__title">СРОК ИСПОЛНЕНИЯ - 1 ДЕНЬ!</div>
+                  <div class="roof2-right__text">Уже на следующий день установим Вам безупречный натяжной потолок</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- /HOWDOIT/ -->
+      <section class="howdoit">
+        <div class="howdoit-content">
+          <h2 class="howdoit-title">КАК МЫ ЭТО ДЕЛАЕМ</h2>
+          <p class="howdoit-subtitle">Производство натяжных потолков по цене изготовителя!</p>
+          <div class="howdoit-body">
+            <div class="howdoit-left">
+              <div class="howdoit-left__img" style="background-image: url(img/bg-howdoit.png);"></div>
+            </div>
+            <div class="howdoit-right">
+              <div class="howdoit-items">
+                <div class="howdoit-item item click">
+                  <div class="item-top">
+                    <div class="item-img"></div>
+                    <h3 class="item-title">Наше производство</h3>
+                  </div>
+                  <div class="item-inner display">
+                    <p class="item-text">
+                      Компания «Гармония уюта» гордится не только своими высококласснымиспециалистами, но и наличием производства на персональных (особых) условиях - по цене
+                      изготовителя, что играет не маловажную роль при выборе компании натяжных потолков.
+                    </p>
+                    <p class="item-text">
+                      Благодаря наличию производственной базы в Минске, качество и скорость монтажанатяжных потолков увеличивается в разы, а стоимость при этом остается доступной и привлекательной.</p><a class="item-link" href="">подробнее</a>
+                  </div>
+                </div>
+                <div class="howdoit-item item">
+                  <div class="item-top">
+                    <div class="item-img"></div>
+                    <h3 class="item-title">Дополнительные преимущества</h3>
+                  </div>
+                  <div class="item-inner">
+                    <p class="item-text">
+                      Компания «Гармония уюта» гордится не только своими высококласснымиспециалистами, но и наличием производства на персональных (особых) условиях - по цене
+                      изготовителя, что играет не маловажную роль при выборе компании натяжных потолков.
+                    </p>
+                    <p class="item-text">
+                      Благодаря наличию производственной базы в Минске, качество и скорость монтажанатяжных потолков увеличивается в разы, а стоимость при этом остается доступной и привлекательной.</p><a class="item-link" href="">подробнее</a>
+                  </div>
+                </div>
+                <div class="howdoit-item item">
+                  <div class="item-top">
+                    <div class="item-img"></div>
+                    <h3 class="item-title">Почему натяжные потолки лучше</h3>
+                  </div>
+                  <div class="item-inner">
+                    <p class="item-text">
+                      Компания «Гармония уюта» гордится не только своими высококласснымиспециалистами, но и наличием производства на персональных (особых) условиях - по цене
+                      изготовителя, что играет не маловажную роль при выборе компании натяжных потолков.
+                    </p>
+                    <p class="item-text">
+                      Благодаря наличию производственной базы в Минске, качество и скорость монтажанатяжных потолков увеличивается в разы, а стоимость при этом остается доступной и привлекательной.</p><a class="item-link" href="">подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="howdoit-bottom bottom">
+            <h3 class="bottom-title">Технические и химические свойства потолка из пленки ПВХ</h3>
+            <div class="bottom-body">
+              <div class="bottom-left"><img class="bottom-img" src="img/certificate.png" alt=""></div>
+              <div class="bottom-right">
+                <p class="bottom-text">
+                  Полотно для потолков изготавливается из универсального строительного материала – полимера.<br>Его основу составляют хлор (chlorum) и нефтепродукты.</p>
+                <p class="bottom-text">
+                  Для стабилизации материала применяются различные добавки, составляющие до 60% конечного веса.<br>Например, гибкость продукта зависит от пластификаторов, цвет - от используемых металлов,
+                  для защиты от грибков и бактерий - биоциды.
+                </p>
+                <p class="bottom-text">
+                  Незначительное содержание вредных химических веществ хлор (chlorum), толиен (toluene),фенол (phenol) и др. в составе никак не проявляет<br>
+                  себя в обычных условиях проживания. Выделение их в окружающую среду начинается при нагревании
+                  до определенной температуры +900С.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- /REVIEWS/ -->
+      <section class="reviews">
+        <div class="container">
+          <div class="reviews-content">
+            <h2 class="reviews-title">КАК О НАС ОТЗЫВАЮТСЯ</h2>
+            <div class="reviews-items">
+              <div class="reviews-item block">
+                <div class="block-img man1">
+                  <svg viewBox="0 20 300 327" width="154" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <mask id="mask">
+                        <rect width="100%" height="100%" fill="#000"></rect>
+                        <ellipse cx="150" cy="180" rx="120" ry="160" fill="#fff"></ellipse>
+                      </mask>
+                    </defs>
+                    <circle cx="150" cy="200" r="118" fill="#1A1D6E" stroke="#FF8F17" stroke-width="4"></circle>
+                    <image href="img/alex2.png" x="35" y="4" width="230" height="320" mask="url(#mask)"></image>
+                  </svg>
+                </div>
+                <h3 class="block-title">Алексей Хлестов</h3>
+                <p class="block-text">Белорусский исполнитель, неоднократный</p>
+                <p class="block-text">обладатель титула «Лучший певец года» Беларуси</p>
+                <div class="block-items"><a class="block-items__btn" href="">Видео-отзыв</a><a class="block-items__btn" href="">Письмо-отзыв</a></div>
+              </div>
+              <div class="reviews-item block">
+                <div class="block-img man2">
+                  <svg viewBox="0 20 300 327" width="154" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <mask id="mask">
+                        <rect width="100%" height="100%" fill="#000"></rect>
+                        <ellipse cx="150" cy="180" rx="120" ry="160" fill="#fff"></ellipse>
+                      </mask>
+                    </defs>
+                    <circle cx="150" cy="200" r="118" fill="#1A1D6E" stroke="#FF8F17" stroke-width="4"></circle>
+                    <image href="img/roma2.png" x="30" y="10" width="240" height="320" mask="url(#mask)"></image>
+                  </svg>
+                </div>
+                <h3 class="block-title">Роман Петрушенко</h3>
+                <p class="block-text">Олимпийский чемпион, заслуженный мастер</p>
+                <p class="block-text">спорта Республики Беларусь</p>
+                <div class="block-items"><a class="block-items__btn" href="">Видео-отзыв</a><a class="block-items__btn" href="">Письмо-отзыв</a></div>
+              </div>
+              <div class="reviews-item block">
+                <div class="block-img man3">
+                  <svg viewBox="0 20 300 327" width="154" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <mask id="mask">
+                        <rect width="100%" height="100%" fill="#000"></rect>
+                        <ellipse cx="150" cy="180" rx="120" ry="160" fill="#fff"></ellipse>
+                      </mask>
+                    </defs>
+                    <circle cx="150" cy="200" r="118" fill="#1A1D6E" stroke="#FF8F17" stroke-width="4"></circle>
+                    <image href="img/evgen2.png" x="34" y="7" width="230" height="320" mask="url(#mask)"></image>
+                  </svg>
+                </div>
+                <h3 class="block-title">Евгений Крыжановский</h3>
+                <p class="block-text">Главный режиссёр театра «Христофор»</p>
+                <div class="block-items"><a class="block-items__btn" href="">Видео-отзыв</a><a class="block-items__btn" href="">Письмо-отзыв</a></div>
+              </div>
+              <div class="reviews-item block">
+                <div class="block-img man4">
+                  <svg viewBox="0 20 300 327" width="154" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <mask id="mask">
+                        <rect width="100%" height="100%" fill="#000"></rect>
+                        <ellipse cx="150" cy="180" rx="120" ry="160" fill="#fff"></ellipse>
+                      </mask>
+                    </defs>
+                    <circle cx="150" cy="200" r="118" fill="#1A1D6E" stroke="#FF8F17" stroke-width="4"></circle>
+                    <image href="img/pavel2.png" x="28" y="8" width="245" height="320" mask="url(#mask)"></image>
+                  </svg>
+                </div>
+                <h3 class="block-title">Павел Кореневский</h3>
+                <p class="block-text">Заместитель генерального</p>
+                <p class="block-text">директора телеканала СТВ</p>
+                <div class="block-items"><a class="block-items__btn" href="">Видео-отзыв</a><a class="block-items__btn" href="">Письмо-отзыв</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- /CHIT/ -->
+      <section class="chit">
+        <div class="chit-content">
+          <h2 class="chit-title">НАС РЕКОМЕНДУЕТ</h2>
+          <div class="chit-images">
+            <div class="chit-item"><img src="img/icon.png" alt=""><a class="chit-item__link" href="">смотреть отзыв</a></div>
+            <div class="chit-item"><img src="img/icon2.png" alt=""><a class="chit-item__link" href="">смотреть отзыв</a></div>
+            <div class="chit-item"><img src="img/icon3.png" alt=""><a class="chit-item__link" href="">смотреть отзыв</a></div>
+            <div class="chit-item"><img src="img/icon4.png" alt=""><a class="chit-item__link" href="">смотреть отзыв</a></div>
+            <div class="chit-item"><img src="img/icon2.png" alt=""><a class="chit-item__link" href="">смотреть отзыв</a></div>
+            <div class="chit-item"><img src="img/icon.png" alt=""><a class="chit-item__link" href="">смотреть отзыв</a></div>
+          </div>
+          <div class="chit-body">
+            <div class="chit-left">
+              <h2 class="chit-left__title">НАТЯЖНЫЕ ПОТОЛКИ ОТ КОМПАНИИ «ГАРМОНИЯ УЮТА»</h2>
+              <p class="chit-left__text">Предлагаем следующие виды натяжных потолков:</p>
+              <p class="chit-left__text">
+                <span>Матовые потолки</span> – традиционные по фактуре потолки, которые отлично вписываются вклассический интерьер. Придают обстановке помещения элегантность, ненавязчивость.</p>
+              <p class="chit-left__text">
+                <span>Глянцевые потолки</span> – оптимальный вариант для офисного помещения, оформления интерьера вобщественных местах (кинотеатр, салон красоты), гостиных.</p>
+              <p class="chit-left__text">
+                <span>Сатиновые потолки</span> – благодаря наличию сатиновой пленки наповерхности такого потолка
+                мягко переливается свет, создается эффект перламутра.
+              </p>
+              <p class="chit-left__text">
+                <span>Тканевые потолки</span> – экологически безопасные натяжные потолки.Материал покрытия отлично пропускает воздух.</p><a class="chit-left__btn" href="">ЗАКАЖИТЕ 2 ДИЗАЙН-ПРОЕКТА БЕСПЛАТНО</a>
+            </div>
+            <div class="chit-right">
+              <h3 class="chit-right__subtitle">Потолки любой сложности, быстрый и аккуратный монтаж</h3>
+              <p class="chit-right__text">
+                Установка простого по конструкции потолка в среднем занимает около 3 часов,более сложных - от 1 до 2 дней.</p>
+              <p class="chit-right__text">
+                Специалисты компании готовы воплотить в жизнь самые необычные идеи: если вашей задумкекто-то вынес приговор «это невозможно сделать», то обращайтесь к нам.</p>
+              <p class="chit-right__subtitle">Первоклассный сервис, качество и надежность</p>
+              <p class="chit-right__text">
+                Если вы хотите дешево купить качественные натяжные потолки и ближе познакомиться снашей компанией, просто вызовите дизайнера и он без обязательств
+                приедет к вам с демонстрационными материалами.
+              </p>
+              <p class="chit-right__text">
+                В домашней обстановке обсудим ваши идеи, вкусовые предпочтения и проведем небольшой опрос.Только после тщательного изучения требований и осмотра потолка опытный
+                дизайнер займется созданием проекта и назовет точную стоимость натяжных потолков.
+              </p>
+              <p class="chit-right__text">
+                Наши натяжные потолки отвечают самым высоким стандартам качества, а сотрудники компаниипрошли специальное обучение и постоянно подтверждают квалификацию.</p>
+              <h3 class="chit-right__subtitle">Мы готовы привнести в ваш дом красоту, роскошь и достойное качество!</h3>
+            </div>
+          </div>
+        </div>
+      </section><!-- /FOOTER/ -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-items">
+              <div class="footer-item">
+                <p class="footer-note">Гармония уюта самая отзывчивая компания в ноябре 2019 года по результатам общения с потребителями на диалоговом портале <a href=''>otzyvy.by</a> <a href=''>(диплом)</a></p>
+                <div class="footer-address">
+                  ООО «Гармония Бизнеса»220068, г.Минск, ул.К.Минина,
+                  д.23, каб.205
+                  УНП 193202769
+                </div>
+              </div>
+              <div class="footer-item">
+                <div class="footer-title">О КОМПАНИИ</div>
+                <div class="footer-text"><a href="">О компании</a><a href="">Команда</a><a href="">Преимущества для Вас</a><a href="">Новости</a><a href="">Блог о дизайне</a><a href="">Партнёры</a><a href="">Дилерам</a><a href="">Вакансии</a><a href="">Производство</a><a href="">Доска почета</a></div>
+              </div>
+              <div class="footer-item">
+                <div class="footer-title">КАТАЛОГ ПОТОЛКОВ</div>
+                <div class="footer-text"><a href="catalog.html">Каталог натяжных потолков</a><a href="">Создать проект</a><a href="">Палитра</a><a href="">Готовые решения</a><a href="">Парящие потолки</a><a href="">Бесщелевые потолки</a></div>
+                <div class="footer-title">ФОТОГАЛЕРЕЯ</div>
+              </div>
+              <div class="footer-item">
+                <div class="footer-title">ЦЕНЫ</div>
+                <div class="footer-text"><a href="">Цены</a><a href="">Скидки и акции</a><a href="">Потолки в пассрочку 0%</a></div>
+                <div class="footer-title">ОТЗЫВЫ</div>
+                <div class="footer-text"><a href="">Отзывы</a><a href="">Видеоотзывы</a><a href="">Рекомендации</a></div>
+              </div>
+              <div class="footer-item">
+                <div class="footer-title">ДОП. УСЛУГИ</div>
+                <div class="footer-text"><a href="">Фотопечать</a><a href="">Парящие потолки</a><a href="">Парящие линии</a><a href="">Система освещения SLOTT</a><a href="">Натяжные стены</a><a href="">Фотообои</a><a href="">Фотокартины</a><a href="">Светильники</a><a href="">Светодиодные ленты</a><a href="">Карнизы</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer><!-- /SUBFOOTER/ -->
+      <div class="subfooter">
+        <div class="container">
+          <div class="subfooter-content">
+            <div class="subfooter-items">
+              <div class="subfooter-copy">©2020. Все права защищены</div><a class="subfooter-policy" href="">Политика конфиденциальности</a>
+            </div>
+            <div class="subfooter-rating">Наш рейтинг: 4.92 (Оценок: 3865) ★★★★★</div>
+            <div class="subfooter-note">*КОМПАНИЯ N1 ПО ОТЗЫВАМ  В БЕЛАРУСИ на основе данных otzyvy.by</div>
+            <div class="subfooter-author">website by monotone.by</div>
+          </div>
+        </div>
+      </div><!-- /CALL/ -->
+      <div class="call" id="call">
+        <div class="call-content">
+          <div class="call-top"><small class="call-top__text">Нет, спасибо</small><a class="call-top__btn" href="" data-close="close">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="close" d="M21.158 0L23.9791 2.82138L2.82107 23.9817L0 21.1604L21.158 0Z" fill="#949494"></path>
+                <path id="close" d="M24 22.1786L21.1789 25L0.0208837 3.83964L2.84196 1.01826L24 22.1786Z" fill="#949494"></path>
+              </svg></a></div>
+          <div class="call-body">
+            <div class="call-left"><img src="img/bg-call.png" alt=""></div>
+            <div class="call-right">
+              <h2 class="call-title">Давайте сэкономим Ваше время и проконсультируем Вас!</h2>
+              <div class="call-link">
+                <div class="call-phone">
+                  <label class="call-phone__label" for="tel">+3752
+                    <input class="call-phone__tel" id="tel" type="tel" name="phone" autocomplete="off" placeholder="XX XXX-XX-XX">
+                  </label>
+                </div><a class="call-btn" href="">ЖДУ ЗВОНКА</a>
+              </div>
+              <p class="call-text">Закажите звонок!</p>
+              <p class="call-text">Мы перезвоним всего через 1 минуту.</p>
+              <p class="call-text">Это быстро и бесплатно</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- /CALL2/ -->
+      <div class="call2" id="call2">
+        <div class="call2-content">
+          <div class="call2-top"><a class="call2-btn" href="" data-close="close">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="close" d="M21.158 0L23.9791 2.82138L2.82107 23.9817L0 21.1604L21.158 0Z" fill="#949494"></path>
+                <path id="close" d="M24 22.1786L21.1789 25L0.0208837 3.83964L2.84196 1.01826L24 22.1786Z" fill="#949494"></path>
+              </svg></a></div>
+          <h2 class="call2-title">КОНТАКТ-ЦЕНТР</h2><img class="call2-logo" src="img/logo-modal.png" alt="">
+          <div class="call2-items">
+            <div class="call2-item">
+              <div class="call2-img" style="background-image: url(img/modal-img.png);"></div><a class="call2-link" href="">
+                <div class="call2-link__text">ОБРАТНАЯ СВЯЗЬ</div>
+                <div class="call2-link__img">
+                  <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="arrow2" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#FFFFFF" stroke-width="6"></path>
+                  </svg>
+                </div></a>
+            </div>
+            <div class="call2-item">
+              <div class="call2-img" style="background-image: url(img/modal-img2.png);"></div><a class="call2-link" href="">
+                <div class="call2-link__text">ВЫЗВАТЬ ЗАМЕРЩИКА</div>
+                <div class="call2-link__img">
+                  <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="arrow2" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#FFFFFF" stroke-width="6"></path>
+                  </svg>
+                </div></a>
+            </div>
+            <div class="call2-item">
+              <div class="call2-img" style="background-image: url(img/modal-img3.png);"></div><a class="call2-link" href="">
+                <div class="call2-link__text">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</div>
+                <div class="call2-link__img">
+                  <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="arrow2" d="M15.2422 31.0149L29.4746 16.7825L14.964 2.27191" stroke="#FFFFFF" stroke-width="6"></path>
+                  </svg>
+                </div></a>
+            </div>
+          </div>
+        </div>
+      </div><!-- /CALL3/ -->
+      <div class="call3" id="call3">
+        <div class="call3-content">
+          <div class="call3-top"><a class="call3-close" href="" data-close="close">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="close" d="M21.158 0L23.9791 2.82138L2.82107 23.9817L0 21.1604L21.158 0Z" fill="#949494"></path>
+                <path id="close" d="M24 22.1786L21.1789 25L0.0208837 3.83964L2.84196 1.01826L24 22.1786Z" fill="#949494"></path>
+              </svg></a></div>
+          <h2 class="call3-title">ВЫЗВАТЬ МАСТЕРА</h2>
+          <form class="call3-form">
+            <label class="call3-label" for="name">ИМЯ</label>
+            <input class="call3-input" id="name" type="text" name="name" autocomplete="off">
+            <label class="call3-label" for="phone">+3752</label>
+            <input class="call3-input" id="phone" type="tel" name="phone" autocomplete="off" placeholder="XX XXX-XX-XX"><a class="call3-btn" href="">ОТПРАВИТЬ</a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/libraries/jquery-3.5.1.min.js"></script>
+    <script src="js/libraries/fancybox.js"></script>
+    <script src="js/libraries/slick.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
