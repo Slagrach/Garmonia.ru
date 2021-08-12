@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-/* fonts */
-
 @font-face {
   font-family: "fontawesome-webfont";
+
+/* fonts */
   font-display: swap;
   src: url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.woff2") format("woff2");
   font-weight: 400;
@@ -3220,6 +3220,7 @@ body.lock {
   left: 45px;
   width: 169px;
   height: 234px;
+  z-index: 6;
 }
 
 .fix {
